@@ -1,0 +1,70 @@
+/* YieldQuest custom styles */
+:root{
+  --yq-green: #005f30;
+  --yq-yellow: #ffcc00;
+}
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-style: normal;
+}
+h1 {
+    font-family: 'Roboto';
+    text-shadow: 1px 1px 1px #000000;
+}
+h2 {
+    font-family: 'Roboto';
+}
+h3 {
+    font-family: 'Roboto';
+}
+h4 {
+    font-family: 'Roboto';
+    color: #0c406d;
+}
+h5 {
+    font-family: 'Roboto';
+}
+    .navbar {
+      background-color: #006633; /* Dark green */
+    }
+    .navbar-brand, .nav-link {
+      color: #FFD700 !important; /* Yellow */
+      font-weight: bold;
+    }
+    .nav-link:hover {
+      color: white !important; /* Hover effect */
+    }
+    .navbar-toggler {
+      border-color: #FFD700;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FFD700' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+.badge-yq{
+  background: var(--yq-yellow);
+  color:#111;
+}
+.yq-logo{
+  height:40px;
+  width:auto;
+  margin-right: .5rem;
+
+}
+.card{
+  border-radius: 1rem;
+}
+.chart-container{
+  min-height: 340px;
+}
+.footer {
+  color:#666;
+  font-size: 0.9rem;
+}
